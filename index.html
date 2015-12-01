@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Traditional Food Memory Card Game</title>
+	<link rel="stylesheet" href="css/card.css">    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/jquery-2.1.4.min.js"></script>
+</head>
+<body >
+<h2>Welcome to Memory Game!!</h2>
+	<div id="userInput">
+		<form action="input.html" method="get">
+			<fieldset>
+				<button name="min_card" id="easy" type="submit" value="16">Easy</button>
+				<button name="min_card" id="medium" type="submit" value="24">Medium</button>
+				<button name="min_card" id="hard" type="submit" value="32">Hard</button>
+			</fieldset>
+		</form>
+	</div>
+	<div id="displayGame">
+		<div id="image">
+		<h3>Pair the food with the flag image of the responding country:</h3>
+		<div class="container">
+			<table align="center" id="card-field">
+
+		    </table>
+		
+		</div>
+		<h2 id="sub-header"><label id="score-board" data-score="0">0</label> SCORE.</h2>
+		<div><span id="flagDisplay"><script>showFlag()</script></span> </div>
+	
+		</div>
+	</div>
+
+</body>
+</html>

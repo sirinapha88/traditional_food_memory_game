@@ -1,0 +1,101 @@
+body{
+	background-image: url(" ../img/bg.jpg");
+	background-repeat: repeat-y;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+	width: 100%;
+
+}
+h2,h3 {
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color: white;
+	background-color: #b30000;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+
+table{
+	border-style: groove;
+	margin: 0 auto;
+}
+.container {
+	margin: 20px auto;
+
+	max-width: 900px;
+}
+
+.card_display {
+	width: 100px;
+	height: 100px;
+	padding-bottom: 11.1%;
+	float: left;
+	background-color: white;
+	border-style: groove;
+	
+}
+
+div#memory_board{
+	/*background:#CCC;*/
+	border:#999 1px solid;
+	width:800px;
+	height:540px;
+	padding:24px;
+	margin:0px auto;
+}
+div#memory_board > div{
+	background: url(blank.png) no-repeat;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+}
+
+form fieldset input{
+	display: block;
+	margin-bottom: 10px;
+	margin: 0 auto;
+	width: 50%;
+	background-color: white;
+}
+ button {
+ 	border: none;
+ 	float: right;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: black;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+	
+
+.divFlag{
+	width:2em;
+	height:4em;
+	float:right;
+	margin:4px;
+	padding:2px;
+	position: center;
+	
+	
+	
+}
+
