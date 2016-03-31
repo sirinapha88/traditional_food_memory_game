@@ -16,3 +16,7 @@ First project for galvanize.
         b. be able to restart the game
         c. (stretch) use local storage to persist across sessions
 4. (if you're too fast) Try using an API to source the images
+
+
+### links
+* [gh-pages](http://sirinapha88.github.io/traditional_food_memory_game)
